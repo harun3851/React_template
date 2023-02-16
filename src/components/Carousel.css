@@ -10,5 +10,32 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+   
 }
 
+.left{
+    flex: 10%;
+    height: 100%;
+    background-color:rgb(0, 0, 0, 0.6);
+    display: grid;
+    place-items: center;
+    color: aqua;
+ }
+
+.center{
+    flex: 70%;
+    height: 100%;
+    background-color:rgb(0, 0, 0, 0.1);
+    color: aqua;
+    display: grid;
+    place-items: center;
+ 
+}
+.right{
+    flex: 10%;
+    height: 100%;
+    background-color:rgb(0, 0, 0, 0.6);
+    color: aqua;
+    display: grid;
+    place-items: center;
+ }
